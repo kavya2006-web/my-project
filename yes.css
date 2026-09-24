@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#fa39b0;
+    color:white ;
+}
+.msg{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h3{
+    flex-wrap: wrap;
+    gap:3vmin;
+    padding:2rem;
+
+}
+.pop{
+    animation: pop 7s ease-in 0s  normal;
+
+}
+@keyframes pop{
+     from{
+        transform: scale(0.5);
+    }
+    to{
+        transform:scale(1)
+    }
+    }
+
+
